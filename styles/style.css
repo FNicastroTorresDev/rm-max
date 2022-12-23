@@ -10,3 +10,108 @@
   padding: 0;
 }
 
+.hero {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+}
+
+.hero #description {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 20px;
+  bottom: 5px;
+  width: 80%;
+}
+
+.hero #title {
+  color: var(--font-color);
+  text-shadow: 0 0 5px white;
+}
+
+.hero #p-description {
+  color: var(--font-color);
+  text-shadow: 0 0 5px white;
+}
+
+.button {
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: var(--second-color);
+  max-width: 115px;
+}
+
+.button:hover {
+  border: 1px solid var(--third-color);
+  color: var(--third-color);
+}
+
+.container {
+  border-bottom: 5px solid var(--second-color);
+}
+
+.container h2 {
+  border-bottom: 3px solid var(--third-color);
+}
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+}
+
+.carousel-container i {
+  background-color: var(--second-color);
+  color: white;
+  border-radius: 5px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.carousel-container i:hover {
+  color: var(--third-color);
+}
+
+.carousel-custom {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.img-element {
+  flex: 1 0 auto;
+  margin: 0 5px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    width: 99vw;
+    height: 50vh;
+  }
+  .hero img {
+    width: 99vw;
+    height: 50vh;
+    object-fit: cover;
+  }
+  .hero #description {
+    left: 40px;
+    bottom: 20px;
+    width: 30%;
+  }
+  .hero #p-description {
+    font-weight: bold;
+  }
+}
