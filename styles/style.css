@@ -3,11 +3,23 @@
   --second-color: #81B8EF;
   --third-color: #F5D605;
   --font-color: #050505;
+  --color-bg-h2:  #c9ac72;
+  --color-bg-h4: #fff69b;
+  --color-h4:  #F5D605;
+  --color-main: #ffffff;
+  --color-container: #c0dec2;
+  --color-footer:  #81B8EF;
+  --color-nv: #81b8ef;
+  --Color-fuente: #050505;
 }
 
 * {
   margin: 0;
   padding: 0;
+}
+
+.navbar-color {
+  background-color: #81B8EF;
 }
 
 .hero {
@@ -122,4 +134,36 @@
 .brand img{
   width: 50px;
   height: 50px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 10px 5px 15px 5px; */
+  height: auto;
+  width: 100vw;
+  background-color: var(--color-main);
+}
+
+footer  {
+  background-color: var(--color-footer);
+  margin: 20px 0px 0px;
+}
+  
+.img-footer {
+  height: 50px;
+  border-radius: 25px;
+  margin: 0px 30px;
+  box-shadow: black 3px 5px 10px 0px;    
+}
+
+/* hg {
+  background-color: var(--Color-fuente);
+} */
+  
+#img-footer {
+  height: 75px;   
+}
 }
