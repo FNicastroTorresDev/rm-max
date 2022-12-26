@@ -34,7 +34,7 @@
       "more": "https://www.themoviedb.org/movie/505642-black-panther-wakanda-forever"
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "El gato con botas: El último deseo",
       "genres": "Animación, Aventgura, Comedia, Familia, Fantasía",
       "year": 2022,
@@ -45,7 +45,7 @@
       "more": "https://www.themoviedb.org/movie/315162-puss-in-boots-the-last-wish"
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "Top Gun: Maverick",
       "genres": "Acción, Drama",
       "year": 2022,
@@ -56,7 +56,7 @@
       "more": "https://www.themoviedb.org/movie/361743-top-gun-maverick"
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "Avatar: el sentido del agua",
       "genres": "Ciencia ficción, Acción, Aventura",
       "year": 2022,
@@ -67,7 +67,7 @@
       "more":"https://www.themoviedb.org/movie/76600-avatar-the-way-of-water"
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "El secreto de sus ojos",
       "genres": "Crimen, Misterio, Suspense, Romance, Drama",
       "year": 2009,
@@ -78,7 +78,7 @@
       "more": "https://www.themoviedb.org/movie/25376-el-secreto-de-sus-ojos"
     },
     {
-      "id": 7,
+      "id": 8,
       "title": "Vengadores: Infinity War",
       "genres": "Aventura, Acción, Ciencia ficción",
       "year": 2018,
@@ -89,7 +89,7 @@
       "more": "https://www.themoviedb.org/movie/299536-avengers-infinity-war"
     },
     {
-      "id": 8,
+      "id": 9,
       "title": "Blade Runner 2049",
       "genres": "Ciencia ficción, Drama",
       "year": 2017,
@@ -100,7 +100,7 @@
       "more": "https://www.themoviedb.org/movie/335984-blade-runner-2049"
     },
     {
-      "id": 9,
+      "id": 10,
       "title": "1917",
       "genres": "Bélica, Drama, Acción, Historia",
       "year": 2020,
@@ -111,7 +111,7 @@
       "more": "https://www.themoviedb.org/movie/530915-1917"
     },
     {
-      "id": 10,
+      "id": 11,
       "title": "Jojo Rabbit",
       "genres": "Comedia, Bélica, Drama",
       "year": 2019,
@@ -132,6 +132,7 @@
       "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jNW2KTGsQvF05zIsjyEWP1w8Kei.jpg",
       "trailer": "https://www.youtube.com/watch?v=zkmxFvWu8Bc",
       "showrunner": "Juanma Martínez Medina",
+      "banner":"https://www.themoviedb.org/t/p/original/pb8Z3Ef6CFjpm87hKW3DfdUge3J.jpg",
       "more": "https://www.themoviedb.org/tv/213762-sean-eternos-campeones-de-america"
     },
     {
