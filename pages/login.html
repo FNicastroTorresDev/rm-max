@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="author" content="RM-MAX">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+      <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <link rel="icon" type="image/jpg" href="/assets/img/icons/emoji-angry.svg">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../styles/style.css">
+  
+  </head>
+  <body>
+    <main class="main">
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col col-sm-12 col-md-12 my-2">
+              <form action="#">
+                <fieldset>
+                  <legend class="fw-bold">Ingresar</legend>
+
+                  <label for="email" class="form-label">Correo Electronico</label> <br>
+                  <input type="email"  class="form-control"  name="email">
+                  <br>
+                  <label for="contraseña" class="form-label">Contraseña</label> <br>
+                  <input type="password" class="form-control"
+                  name="Contraseña" id="contraseña" required><br>
+                  <div class="mb-4 form-check">
+                    <input type="checkbox" name="connected" class="form-check-input" id="">
+                    <label for="connected" class="form-check-label">Mantenerme conectado</label>
+                  </div>
+              
+                  <div class="d-grid">
+                    <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+                  </div>
+
+                  <div class="my-3"> 
+                  <Span class="" data-bs-toggle="modal" data-bs-target="#ModalRecuperar"><a href="#">Precuperar Password</a></Span></div>
+                </fieldset>
+              </form>  
+              
+              <!--Botones de iniciar secion-->
+              <div>
+                <button type="button" class="btn btn-outline-primary m-2 mx-2" data-bs-toggle="modal" data-bs-target="#ModalFaceBook">
+                  <label for="">Iniciar sesión con </label>
+                  <i class="bi-facebook"></i>
+                </button>
+
+              <button type="button" class="btn btn-outline-danger my-2 mx-2" data-bs-toggle="modal" data-bs-target="#ModalGoogle">
+                <label for="">Iniciar sesión con </label>
+                <i class=" bi-google"></i>
+              </button>
+            </div>
+
+            <!--Boton Volver-->
+            <div>
+                <a class="btn btn-primary text-bg my-3" href="/index.html"> Volver </a>
+            </div>
+
+            <div class="col col-sm-12 col-md-5 my-2">
+              <img class="img-fluid" id="log-img" src="/assets/img/contact/img-contact-portada-1.jpg" alt="">
+            </div>
+            
+      </section>
+      
+      </div>
+    </main>
+
+    <footer>
+      <div class="col text-center">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 mt-3">
+            <a href="/index.html"><img src="../img/logo-nav.jpg"
+                  alt="Logo" class="img-footer my-2"></a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mt-3">
+            <p  class="text-white">Siguinos en nuestras redes</p>
+            <a href="https://www.facebook.com/"><i
+                class="bi bi-facebook mx-3 "></i></a>
+            <a href="https://www.instagram.com/"><i
+                class="bi bi-instagram mx-3"></i></a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mt-3">
+            <a href="/pages/contact.html">
+              <class="title my-3">Contacto</class=>
+            </a>
+            <a href="/pages/error.html">Aviso Legal</a><br>
+            <a href="/pages/error.html">Política de Cookies</a> <br>
+            <a href="/pages/error.html">Política de privacidad</a>
+            <p class="text-white">&copy; Todos los derechos reservados 2022.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal-Recuperar Contraseña-->
+    <div class="modal fade" id="ModalRecuperar" tabindex="-1" aria-labelledby="ModalRecuperarlabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header bg-dark text-white">
+            <div class="modal-title" id="ModalRecuperarlabel">Recuperar Contraseña</div>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body bg-dark text-white">
+            <p> Para recuperar su contraseña, ingrese en la casilla el correo electronico con el que se registro.</p>
+            <div>
+              <input type="email" placeholder="example@example.com">
+            </div>
+            <p class="my-2">A continuación, se enviara un email a la casilla de correo ingresada, 
+              con un enlace para reestablecer su contraseña.</p>
+          </div>
+          <div class="modal-footer bg-dark text-white">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Recuperar Contraseña</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- Modal de FaceBook-->
+    <div class="modal fade" id="ModalFaceBook" tabindex="-1" aria-labelledby="ModalFaceBooklabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header bg-dark text-white">
+            <div class="modal-title" id="ModalFaceBooklabel">Iniciar sesión con FaceBook</div>
+            <button type="button" class="btn-close btn-danger" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body bg-dark text-white">
+            <p> Ingrese su email y contraseña</p>
+            <div>
+              <input type="email" placeholder="example@example.com">
+            </div>
+            <div class="my-3">
+              <input type="text" class="password " placeholder="Contraseña" required>
+            </div>
+            
+          </div>
+          <div class="modal-footer bg-dark text-white">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary" >Ingresar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- Modal de Google-->
+    <div class="modal fade" id="ModalGoogle" tabindex="-1" aria-labelledby="ModalGooglelabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header bg-dark text-white">
+            <div class="modal-title" id="ModalGooglelabel">Iniciar sesión con Google</div>
+            <button type="button" class="btn-close btn-danger" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-start bg-dark text-white">
+            <p> Ingrese su email y contraseña</p>
+            <div>
+              <input type="email" required placeholder="example@example.com">
+            </div>
+            <div class="my-3">
+              <input type="text" class="password " placeholder="Contraseña" required>
+            </div>
+          </div>
+          <div class="modal-footer bg-dark text-white">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary" >Ingresar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Modal de Suscribite-->
+    <div class="modal fade" id="Modalsuscribirse" tabindex="-1"
+    aria-labelledby="Modalsuscribirselabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header bg-dark text-white">
+            <div class="modal-title" id="Modalsuscribirselabel">Suscribirse al
+              Blog </div>
+            <button type="button" class="btn-close btn-danger"
+                    data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body bg-dark">
+            <p class="text-white">Enterate de las ultimas novedades</p>
+            <div class="form-check">
+
+              <label class="text-white" for="mail ">Ingresa tu correo
+                electrónico</label><br>
+              <input type="text" name="mail" class="required" id="mail"
+                      required>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value=""
+                      id="flexCheckChecked" checked>
+              <label class="form-check-label text-white" for="flexCheckChecked">
+                Recibir Notificaciones en mi mail.
+              </label>
+            </div>
+
+          </div>
+          <div class="modal-footer bg-dark">
+            <button type="button" class="btn btn-primary"
+                    data-bs-dismiss="modal">Suscribirse</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
