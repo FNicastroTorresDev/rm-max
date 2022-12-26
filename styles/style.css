@@ -64,6 +64,10 @@
   border-bottom: 3px solid var(--third-color);
 }
 
+.container article {
+  margin-bottom: 10px;
+}
+
 .carousel-container {
   display: flex;
   align-items: center;
