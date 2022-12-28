@@ -276,5 +276,22 @@
       "published": true,
       "favorite": false
     }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@gmail.com",
+      "password": "rolling2022"
+    },
+    {
+      "id": 2,
+      "email": "facundo@gmail.com",
+      "password": "facu2022"
+    },
+    {
+      "id": 3,
+      "email": "bruno@hotmail.com",
+      "password": "bruno2020"
+    }
   ]
 }

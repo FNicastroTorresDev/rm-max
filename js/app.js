@@ -18,6 +18,15 @@ const nextNewSer = document.getElementById('next-new-ser')
 const prevRecoSer = document.getElementById('prev-reco-ser')
 const nextRecoSer = document.getElementById('next-reco-ser')
 
+const isLoged = JSON.parse(window.sessionStorage.getItem('loginOk'))
+
+if (isLoged.value) {
+  document.getElementById('login-btn').setAttribute('class','visually-hidden')
+  document.getElementById('register-btn').setAttribute('class','visually-hidden')
+  document.getElementById('closeLogin-btn').setAttribute('class','nav-link active')
+  document.getElementById('admin-btn').setAttribute('class','nav-link active')
+}
+
 fetch('http://localhost:3000/series')
   .then(response => response.json())
   .then(data => {

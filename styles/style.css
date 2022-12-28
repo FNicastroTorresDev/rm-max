@@ -122,26 +122,6 @@ main {
   object-fit: cover;
 }
 
-@media screen and (min-width: 768px) {
-  .hero {
-    width: 99vw;
-    height: 50vh;
-  }
-  .hero img {
-    width: 99vw;
-    height: 50vh;
-    object-fit: cover;
-  }
-  .hero #description {
-    left: 40px;
-    bottom: 20px;
-    width: 30%;
-  }
-  .hero #p-description {
-    font-weight: bold;
-  }
-}
-
 .brand img{
   width: 50px;
   height: 50px;
@@ -166,8 +146,14 @@ footer  {
   position: absolute;
   bottom: 0;
   width: 100vw;
+  /* height: 150px; */
   background-color: var(--color-footer);
   margin: 50px 0px 0px;
+}
+
+footer i {
+  color: white;
+  font-size: 1.5rem;
 }
   
 .img-footer {
@@ -175,4 +161,48 @@ footer  {
   border-radius: 25px;
   margin: 0px 30px;
   box-shadow: black 3px 5px 10px 0px;    
+}
+
+.about-us {
+  height: 1050px;
+  margin-bottom: 100px;
+}
+
+.main-index {
+  height: 2150px;
+  margin-bottom: 100px;
+}
+
+.btn-atras {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.btn-atras:hover {
+  color: var(--third-color);
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    width: 99vw;
+    height: 50vh;
+  }
+  .hero img {
+    width: 99vw;
+    height: 50vh;
+    object-fit: cover;
+  }
+  .hero #description {
+    left: 40px;
+    bottom: 20px;
+    width: 30%;
+  }
+  .hero #p-description {
+    font-weight: bold;
+  }
+  .main-index {
+    height: 1950px;
+    margin-bottom: 100px;
+  }
 }

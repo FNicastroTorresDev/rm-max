@@ -19,52 +19,29 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="./pages/contacto.html">Contacto</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./pages/about_us.html">Acerca de Nosotros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./pages/login.html">Iniciar sesion</a>
+              <a id="login-btn" class="nav-link" href="./pages/login.html">Iniciar sesión</a>
             </li>
             <li class="nav-item">
-              <button class="button" type="button" data-bs-toggle="modal" data-bs-target="#modal1">Registrase</button>
+              <a id="closeLogin-btn" class="visually-hidden" href="#" onclick="closeLogin()">Cerrar sesión</a>
+            </li>
+            <li class="nav-item">
+              <a id="admin-btn" class="visually-hidden" aria-current="page" href="./pages/admin.html">Administrar</a>
+            </li>
+            <li id="register-btn" class="nav-item">
+              <button class="button" type="button" data-bs-toggle="modal" data-bs-target="#registerModal" onclick="loadUsersId()">Registrarse</button>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <section>
-      <div class="modal" id="modal1" tabindex="-1">
-        <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Registrase</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body"> 
-        <ul class="list-group">
-          <li class="list-group-item">
-            <label for="email">Correo Electronico</label><br>
-            <input type="email" placeholder="ejemplo123@gmail.com">
-          </li>
-          <li class="list-group-item">
-            <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
-              <label class="form-check-label" for="secondCheckbox" aria-required="true">Acepto recibir notificaciones por mail.</label>
-          </li>
-        <div class="modal-footer">
-          <button  type="button" class="btn btn-custom">
-          <a href="./pages/error404.html" class="link">Enviar</a></button>
-        </div>
-        </div>
-        </div>
-      </div>
-    </section>
-   
-    <main>
+
+    <main class="main-index">
       <section id="hero" class="hero">
         <img id="hero-banner"></img>
         <div id="description">
@@ -143,8 +120,37 @@
       </div>
     </footer>
 
+    <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="registerModalLabel">Registrarme</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form id="registerForm" onsubmit="registerUser(); return false">
+              <div class="mb-3">
+                <label for="email-register" class="form-label">E-mail</label>
+                <input required type="email" class="form-control" id="email-register" placeholder="email@email.com" maxlength="50">
+              </div>
+              <div class="mb-3">
+                <label for="pass-register" class="form-label">Contraseña</label>
+                <input required type="password" class="form-control" id="pass-register" minlength="8" maxlength="16">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+            <button type="submit" form="registerForm" class="btn btn-primary">Registrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script src="./js/detalles.js"></script>
     <script src="./js/app.js"></script>
+    <script src="./js/register.js"></script>
+    <script src="./js/login.js"></script>
   </body>
 </html>
