@@ -26,10 +26,18 @@ fetch('http://localhost:3000/series')
     heroTitle.innerHTML = data[0].title
     heroDescription.innerHTML = data[0].description
     for (i = 0; i < data.length/2; i++) {
-      newSeriesSliders.innerHTML += `<img src="${data[i].image}" alt="${data[i].title}" class="img-element">`
+      newSeriesSliders.innerHTML += `
+        <a id="${data[i].id}" href="./pages/detalles-serie.html" onclick="idSelected(this)">
+        <img src="${data[i].image}" alt="${data[i].title}" class="img-element">
+        </a>
+        `
     }
     for (i = i; i < data.length; i++) {
-      recoSeriesSliders.innerHTML += `<img src="${data[i].image}" alt="${data[i].title}" class="img-element">`
+      recoSeriesSliders.innerHTML += `
+        <a id="${data[i].id}" href="./pages/detalles-serie.html" onclick="idSelected(this)">
+        <img src="${data[i].image}" alt="${data[i].title}" class="img-element">
+        </a>
+        `
     }
   });
 
@@ -37,10 +45,18 @@ fetch('http://localhost:3000/movies')
   .then(response => response.json())
   .then(data => {
     for (i = 0; i < data.length/2; i++) {
-      newMoviesSliders.innerHTML += `<img src="${data[i].image}" alt="${data[i].title}" class="img-element">`
+      newMoviesSliders.innerHTML += `
+        <a id="${data[i].id}" href="./pages/detalles-movie.html" onclick="idSelected(this)">
+        <img src="${data[i].image}" alt="${data[i].title}" class="img-element">
+        </a>
+        `
     }
     for (i = i; i < data.length; i++) {
-      recoMoviesSliders.innerHTML += `<img src="${data[i].image}" alt="${data[i].title}" class="img-element">`
+      recoMoviesSliders.innerHTML += `
+      <a id="${data[i].id}" href="./pages/detalles-movie.html" onclick="idSelected(this)">
+      <img src="${data[i].image}" alt="${data[i].title}" class="img-element">
+      </a>
+      `
     }
   });
 
