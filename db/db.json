@@ -9,7 +9,9 @@
       "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hqBeKurpfqoV5msTH5XttGLwFUv.jpg",
       "trailer": "https://www.youtube.com/watch?v=MUDqcnalsLg",
       "director": "Tommy Wirkola",
-      "more": "https://www.themoviedb.org/movie/899112-violent-night"
+      "more": "https://www.themoviedb.org/movie/899112-violent-night",
+      "published": true,
+      "favorite": false
     },
     {
       "id": 2,
@@ -20,7 +22,9 @@
       "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/isLWtcB9TK3wLlTzEny2dPH6beh.jpg",
       "trailer": "https://www.youtube.com/watch?v=AAbvYzDtrLs",
       "director": "Santiago Mitre",
-      "more": "https://www.themoviedb.org/movie/714888-1985"
+      "more": "https://www.themoviedb.org/movie/714888-1985",
+      "published": true,
+      "favorite": false
     },
     {
       "id": 3,
@@ -31,7 +35,9 @@
       "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/mYpT2R7639KvKZ668uoQGS2QNFp.jpg",
       "trailer": "https://www.youtube.com/watch?v=Sog5AgxPwu0",
       "director": "Ryan Coogler",
-      "more": "https://www.themoviedb.org/movie/505642-black-panther-wakanda-forever"
+      "more": "https://www.themoviedb.org/movie/505642-black-panther-wakanda-forever",
+      "published": true,
+      "favorite": false
     },
     {
       "id": 4,
@@ -42,7 +48,9 @@
       "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6aQfiKqi19Orx4fhoICSib58xzx.jpg",
       "trailer": "https://www.youtube.com/watch?v=OoxwA63gXuU",
       "director": "Joel Crawford",
-      "more": "https://www.themoviedb.org/movie/315162-puss-in-boots-the-last-wish"
+      "more": "https://www.themoviedb.org/movie/315162-puss-in-boots-the-last-wish",
+      "published": true,
+      "favorite": false
     },
     {
       "id": 5,
@@ -53,18 +61,22 @@
       "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/AlWpEpQq0RgZIXVHAHZtFhEvRgd.jpg",
       "trailer": "https://www.youtube.com/watch?v=zmFdhZ6gyUM",
       "director": "Joseph Kosinski",
-      "more": "https://www.themoviedb.org/movie/361743-top-gun-maverick"
+      "more": "https://www.themoviedb.org/movie/361743-top-gun-maverick",
+      "published": true,
+      "favorite": false
     },
     {
       "id": 6,
       "title": "Avatar: el sentido del agua",
       "genres": "Ciencia ficción, Acción, Aventura",
       "year": 2022,
-      "description":"Ambientada más de una década después de los acontecimientos de la primera película, 'Avatar: The Way of Water' empieza contando la historia de la familia Sully (Jake, Neytiri y sus hijos), los problemas que los persiguen, lo que tienen que hacer para mantenerse a salvo, las batallas que libran para seguir con vida y las tragedias que sufren.",
-      "image":"https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rHyB15bJiZKZUR6ZNgvcUxy9pVq.jpg",
-      "trailer":"https://www.youtube.com/watch?v=xboEeqWpDHA",
-      "director":"James Cameron",
-      "more":"https://www.themoviedb.org/movie/76600-avatar-the-way-of-water"
+      "description": "Ambientada más de una década después de los acontecimientos de la primera película, 'Avatar: The Way of Water' empieza contando la historia de la familia Sully (Jake, Neytiri y sus hijos), los problemas que los persiguen, lo que tienen que hacer para mantenerse a salvo, las batallas que libran para seguir con vida y las tragedias que sufren.",
+      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rHyB15bJiZKZUR6ZNgvcUxy9pVq.jpg",
+      "trailer": "https://www.youtube.com/watch?v=xboEeqWpDHA",
+      "director": "James Cameron",
+      "more": "https://www.themoviedb.org/movie/76600-avatar-the-way-of-water",
+      "published": true,
+      "favorite": false
     },
     {
       "id": 7,
@@ -75,7 +87,9 @@
       "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/sd6LML87wa9UPZgfuPnGwic82YH.jpg",
       "trailer": "https://www.youtube.com/watch?v=GcHkTSqeGoU",
       "director": "Juan José Campanella",
-      "more": "https://www.themoviedb.org/movie/25376-el-secreto-de-sus-ojos"
+      "more": "https://www.themoviedb.org/movie/25376-el-secreto-de-sus-ojos",
+      "published": false,
+      "favorite": false
     },
     {
       "id": 8,
@@ -86,7 +100,9 @@
       "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ksBQ4oHQDdJwND8H90ay8CbMihU.jpg",
       "trailer": "https://www.youtube.com/watch?v=-f5PwE_Q8Fs",
       "director": "Jose Russo",
-      "more": "https://www.themoviedb.org/movie/299536-avengers-infinity-war"
+      "more": "https://www.themoviedb.org/movie/299536-avengers-infinity-war",
+      "published": false,
+      "favorite": false
     },
     {
       "id": 9,
@@ -97,7 +113,9 @@
       "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/aBvDBfqCHs0sCXoun7giyHeClb1.jpg",
       "trailer": "https://www.youtube.com/watch?v=Gt2BqOaKjcQ",
       "director": "Denis Villeneuve",
-      "more": "https://www.themoviedb.org/movie/335984-blade-runner-2049"
+      "more": "https://www.themoviedb.org/movie/335984-blade-runner-2049",
+      "published": true,
+      "favorite": false
     },
     {
       "id": 10,
@@ -108,7 +126,9 @@
       "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/axdhbcZeOsfX3ZpwtgdgPIjc06l.jpg",
       "trailer": "https://www.youtube.com/watch?v=YqNYrYUiMfg",
       "director": "Sam Mendes",
-      "more": "https://www.themoviedb.org/movie/530915-1917"
+      "more": "https://www.themoviedb.org/movie/530915-1917",
+      "published": false,
+      "favorite": false
     },
     {
       "id": 11,
@@ -119,7 +139,9 @@
       "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1HZng5VBqkQ1ZdPVeQ2FoaU5aeB.jpg",
       "trailer": "https://www.youtube.com/watch?v=A6LxA7rG9sQ",
       "director": "Taika Waititi",
-      "more": "https://www.themoviedb.org/movie/515001-jojo-rabbit"
+      "more": "https://www.themoviedb.org/movie/515001-jojo-rabbit",
+      "published": true,
+      "favorite": false
     }
   ],
   "series": [
@@ -132,8 +154,10 @@
       "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jNW2KTGsQvF05zIsjyEWP1w8Kei.jpg",
       "trailer": "https://www.youtube.com/watch?v=zkmxFvWu8Bc",
       "showrunner": "Juanma Martínez Medina",
-      "banner":"https://www.themoviedb.org/t/p/original/pb8Z3Ef6CFjpm87hKW3DfdUge3J.jpg",
-      "more": "https://www.themoviedb.org/tv/213762-sean-eternos-campeones-de-america"
+      "banner": "https://www.themoviedb.org/t/p/original/pb8Z3Ef6CFjpm87hKW3DfdUge3J.jpg",
+      "more": "https://www.themoviedb.org/tv/213762-sean-eternos-campeones-de-america",
+      "published": true,
+      "favorite": false
     },
     {
       "id": 2,
@@ -144,7 +168,9 @@
       "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jflPzxYbM4MxxCppo2AbvSbTOLm.jpg",
       "trailer": "https://www.youtube.com/watch?v=UpPNDoKP6d4",
       "showrunner": "Genndy Tartakovsky",
-      "more": "https://www.themoviedb.org/tv/89456-primal"
+      "more": "https://www.themoviedb.org/tv/89456-primal",
+      "published": true,
+      "favorite": false
     },
     {
       "id": 3,
@@ -155,7 +181,9 @@
       "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/iB6x0bA9XdP4MH3i1zXjMzvTNSY.jpg",
       "trailer": "https://www.youtube.com/watch?v=jtJRfdao_RY",
       "showrunner": "Vince Gilligan, Peter Gould",
-      "more": "https://www.themoviedb.org/tv/60059-better-call-saul"
+      "more": "https://www.themoviedb.org/tv/60059-better-call-saul",
+      "published": true,
+      "favorite": false
     },
     {
       "id": 4,
@@ -166,7 +194,9 @@
       "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/fAos5hPi7TB49KpuIAjvQNZkvwM.jpg",
       "trailer": "https://www.youtube.com/watch?v=339paLFRKlo",
       "showrunner": "Ryan Condal, George R. R. Martin",
-      "more": "https://www.themoviedb.org/tv/94997-house-of-the-dragon"
+      "more": "https://www.themoviedb.org/tv/94997-house-of-the-dragon",
+      "published": true,
+      "favorite": false
     },
     {
       "id": 5,
@@ -177,7 +207,9 @@
       "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/lqcDVZ8pyk08AVftMBildDR3QUK.jpg",
       "trailer": "https://www.youtube.com/watch?v=W6NhKRY_qmE",
       "showrunner": "Rafat Jaki",
-      "more": "https://www.themoviedb.org/tv/105248-cyberpunk-edgerunners"
+      "more": "https://www.themoviedb.org/tv/105248-cyberpunk-edgerunners",
+      "published": true,
+      "favorite": false
     },
     {
       "id": 6,
@@ -188,7 +220,9 @@
       "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ggFHVNu6YYI5L9pCfOacjizRGt.jpg",
       "trailer": "https://www.youtube.com/watch?v=HhesaQXLuRY",
       "showrunner": "Vince Gilligan",
-      "more": "https://www.themoviedb.org/tv/1396-breaking-bad"
+      "more": "https://www.themoviedb.org/tv/1396-breaking-bad",
+      "published": true,
+      "favorite": false
     },
     {
       "id": 7,
@@ -199,7 +233,9 @@
       "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/94GCavCGyOoBZnRlb2x8OZB7HUr.jpg",
       "trailer": "https://www.youtube.com/watch?v=m7ccdln9MOI",
       "showrunner": "Matt Duffer, Ross Duffer",
-      "more": "https://www.themoviedb.org/tv/66732-stranger-things"
+      "more": "https://www.themoviedb.org/tv/66732-stranger-things",
+      "published": false,
+      "favorite": false
     },
     {
       "id": 8,
@@ -210,7 +246,9 @@
       "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hUblG1KZCTRpHc3wqqoU0DW98Q3.jpg",
       "trailer": "https://www.youtube.com/watch?v=uwgohmYnDu0",
       "showrunner": "Frank Darabont",
-      "more": "https://www.themoviedb.org/tv/1402-the-walking-dead"
+      "more": "https://www.themoviedb.org/tv/1402-the-walking-dead",
+      "published": false,
+      "favorite": false
     },
     {
       "id": 9,
@@ -221,7 +259,9 @@
       "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/9On5DKsxwgPm1UHaqjUZdQ5eyFo.jpg",
       "trailer": "https://www.youtube.com/watch?v=lM8XnLxlFmo",
       "showrunner": "Carlos Montero, Darío Madrona",
-      "more": "https://www.themoviedb.org/tv/76669-elite"
+      "more": "https://www.themoviedb.org/tv/76669-elite",
+      "published": true,
+      "favorite": false
     },
     {
       "id": 10,
@@ -232,7 +272,9 @@
       "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/3kuH4I6jAod7dxdUnvpKgMmw4hU.jpg",
       "trailer": "https://www.youtube.com/watch?v=vaJ4CChvxms",
       "showrunner": "Bruno Stagnaro",
-      "more": "https://www.themoviedb.org/tv/60549-okupas"
+      "more": "https://www.themoviedb.org/tv/60549-okupas",
+      "published": true,
+      "favorite": false
     }
   ]
 }
