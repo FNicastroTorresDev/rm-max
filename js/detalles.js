@@ -1,10 +1,3 @@
-function idSelected(element) {
-  const idSelected = {
-    id: parseInt(element.id)
-  }
-  sessionStorage.setItem('idSelected', JSON.stringify(idSelected))
-}
-
 const idMovie = JSON.parse(sessionStorage.getItem('idSelected'))
 
 fetch(`http://localhost:3000/movies/${idMovie.id}`)

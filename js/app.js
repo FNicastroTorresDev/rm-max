@@ -18,7 +18,7 @@ const nextNewSer = document.getElementById('next-new-ser')
 const prevRecoSer = document.getElementById('prev-reco-ser')
 const nextRecoSer = document.getElementById('next-reco-ser')
 
-const isLoged = JSON.parse(window.sessionStorage.getItem('loginOk'))
+const isLoged = JSON.parse(window.sessionStorage.getItem('loginOk')) || window.sessionStorage.setItem('loginOk',JSON.stringify({value: false}))
 
 if (isLoged.value) {
   document.getElementById('login-btn').setAttribute('class','visually-hidden')
@@ -100,3 +100,10 @@ prevRecoSer.addEventListener('click', () => {
 nextRecoSer.addEventListener('click', () => {
   recoSeriesSliders.scrollLeft += 305
 })
+
+function idSelected(element) {
+  const idSelected = {
+    id: parseInt(element.id)
+  }
+  sessionStorage.setItem('idSelected', JSON.stringify(idSelected))
+}
