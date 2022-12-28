@@ -18,6 +18,15 @@
   padding: 0;
 }
 
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+main {
+  margin-bottom: 150px;
+}
+
 .navbar-color {
   background-color: #81B8EF;
 }
@@ -70,6 +79,7 @@
 
 .container {
   border-bottom: 5px solid var(--second-color);
+  margin-bottom: 10px;
 }
 
 .container h2 {
@@ -130,6 +140,7 @@
   .hero #p-description {
     font-weight: bold;
   }
+}
 
 .brand img{
   width: 50px;
@@ -147,9 +158,16 @@
   background-color: var(--color-main);
 }
 
+table i {
+  cursor: pointer;
+}
+
 footer  {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
   background-color: var(--color-footer);
-  margin: 20px 0px 0px;
+  margin: 50px 0px 0px;
 }
   
 .img-footer {
@@ -157,13 +175,4 @@ footer  {
   border-radius: 25px;
   margin: 0px 30px;
   box-shadow: black 3px 5px 10px 0px;    
-}
-
-/* hg {
-  background-color: var(--Color-fuente);
-} */
-  
-#img-footer {
-  height: 75px;   
-}
 }
